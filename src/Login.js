@@ -21,7 +21,7 @@ export default function SignIn() {
     const jsonData ={
       username: data.get('username'),
       password: data.get('password'),}
-    fetch('http://localhost:5000/login', {
+    fetch('http://node31991-env-8510468.app.ruk-com.cloud/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
